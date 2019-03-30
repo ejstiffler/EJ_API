@@ -28,6 +28,11 @@ public class topicController {
     }
 
     //when GET request comes in, this getAllTopics will be triggered
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String getMyNameOfAPI() {
+        return "HELLO THIS IS EMAAD's REST API";
+    }
+    //when GET request comes in, this getAllTopics will be triggered
     @RequestMapping(value = "/topics", method = RequestMethod.GET)
     public List<allTopics> getAllTopics() {
         return TS.getAllTopics();
