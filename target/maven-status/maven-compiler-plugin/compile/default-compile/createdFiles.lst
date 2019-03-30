@@ -1,0 +1,10 @@
+controller\helloController.class
+com\mycompany\maven_1\CourseApiApp.class
+topic\topicService.class
+Course\CourseRepository.class
+Course\CourseService.class
+topic\topicRepository.class
+Course\CourseController.class
+topic\topicController.class
+Course\Course.class
+topic\allTopics.class
